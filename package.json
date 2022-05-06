@@ -1,0 +1,17 @@
+{
+  "name": "tsundere-bot-discord",
+  "version": "1.0.0",
+  "main": "client_controller.js",
+  "author": "OxygenXXX",
+  "license": "GPL-3.0",
+  "repository": 
+  {
+    "type": "git",
+    "url": "git+https://github.com/OxygenXXX/tsundere-bot-discord.git"
+  },
+  "bugs": 
+  {
+    "url": "https://github.com/OxygenXXX/tsundere-bot-discord/issues"
+  },
+  "homepage": "https://github.com/OxygenXXX/tsundere-bot-discord#readme"
+}
