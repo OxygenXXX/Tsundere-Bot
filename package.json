@@ -4,6 +4,7 @@
   "main": "client_controller.js",
   "author": "OxygenXXX",
   "license": "GPL-3.0",
+  "homepage": "https://github.com/OxygenXXX/tsundere-bot-discord#readme",
   "repository": 
   {
     "type": "git",
@@ -13,5 +14,9 @@
   {
     "url": "https://github.com/OxygenXXX/tsundere-bot-discord/issues"
   },
-  "homepage": "https://github.com/OxygenXXX/tsundere-bot-discord#readme"
+  "dependencies": 
+  {
+    "consola": "^2.15.3",
+    "discord.js": "^13.6.0"
+  }
 }

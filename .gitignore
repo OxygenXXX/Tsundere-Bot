@@ -1,0 +1,3 @@
+# Disable node_modules folder upload
+
+node_modules/
