@@ -1,22 +1,31 @@
 {
-  "name": "discord-tsundere-bot",
+  "name": "tsundere-bot",
   "version": "1.0.0",
+
   "author": "OxygenXXX",
   "license": "GPL-3.0",
+
   "main": "client.js",
-  "scripts": {
+  "scripts": 
+  {
     "start": "node client.js",
     "test": "nodemon client.js"
   },
-  "repository": {
+  "repository": 
+  {
     "type": "git",
     "url": "git+https://github.com/OxygenXXX/discord-tsundere-bot.git"
   },
-  "bugs": {
+
+  "bugs": 
+  {
     "url": "https://github.com/OxygenXXX/discord-tsundere-bot/issues"
   },
+
   "homepage": "https://github.com/OxygenXXX/discord-tsundere-bot#readme",
-  "dependencies": {
+
+  "dependencies": 
+  {
     "consola": "^2.15.3",
     "discord.js": "^14.0.3",
     "dotenv": "^16.0.1"
