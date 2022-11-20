@@ -1,26 +1,13 @@
 const discord = require("discord.js");
 
-const { GatewayIntentBits } = require("discord.js");
-
-const dotenv = require("dotenv").config();
-
-const client = new discord.Client
+const client = discord.Client
 ({
-    intents: client_intents
+    intents: [discord.GatewayIntentBits.Guilds]
 });
 
-client.once("ready", () =>
+client.once(discord.Events.ClientReady, (account) =>
 {
-    console.log("Client is ready!");
+    console.log(`Logged in as ${account.user.tag}`);
 });
 
-client.on("messageCreate", async (message) =>
-{
-    if(message.author.bot) return;
-
-    console.log(`New message: ${message.content}`);
-
-    message.channel.send("Hello");
-});
-
-client.login(client_token);
+client.login("");
