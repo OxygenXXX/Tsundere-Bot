@@ -18,5 +18,8 @@
   "homepage": "https://github.com/OxygenXXX/discord-tsundere-bot#readme",
   "dependencies": {
     "discord.js": "^14.6.0"
+  },
+  "engines": {
+    "node": "16"
   }
 }

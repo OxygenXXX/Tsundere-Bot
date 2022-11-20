@@ -1,6 +1,6 @@
 const discord = require("discord.js");
 
-const client = discord.Client
+const client = new discord.Client
 ({
     intents: [discord.GatewayIntentBits.Guilds]
 });
