@@ -10,4 +10,4 @@ client.once(discord.Events.ClientReady, (account) =>
     console.log(`Logged in as ${account.user.tag}`);
 });
 
-client.login("");
+client.login(process.env.CLIENT_TOKEN);
